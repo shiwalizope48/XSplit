@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.x_split0511"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.example.x_split0511.AddGroup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.CrtGrp"
+            android:label="@string/title_activity_crt_grp"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.AddExp"
+            android:label="@string/title_activity_add_exp"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.CrtExp"
+            android:label="@string/title_activity_crt_exp"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.ContactsActivity"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.Payer"
+            android:label="@string/title_activity_payer"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.UneShareActivity"
+            android:label="@string/title_activity_une_share"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.Contacts1"
+            android:label="@string/title_activity_contacts1"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.Try1"
+            android:label="@string/title_activity_try1" >
+        </activity>
+        <activity
+            android:name="com.example.x_split0511.Balance"
+            android:label="@string/title_activity_balance"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

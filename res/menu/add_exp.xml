@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<item android:id="@+id/doneexp"
+          android:icon="@drawable/butdn3"
+          android:showAsAction="ifRoom" />
+		<item android:id="@+id/addexp"
+          android:icon="@drawable/add"
+          android:showAsAction="ifRoom" />
+
+</menu>
